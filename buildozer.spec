@@ -1,7 +1,7 @@
 [app]
-title = android
-package.name = android
-package.domain = org.android
+title = SortingHat
+package.name = sortinghat
+package.domain = org.sortinghat
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
