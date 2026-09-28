@@ -1,5 +1,5 @@
 [app]
-title = SortingHat
+title = Sorting Hat
 package.name = sortinghat
 package.domain = org.rodcamilo
 source.dir = .
