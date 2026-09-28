@@ -1,7 +1,7 @@
 [app]
 title = SortingHat
 package.name = sortinghat
-package.domain = org.sortinghat
+package.domain = org.rodcamilo
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
