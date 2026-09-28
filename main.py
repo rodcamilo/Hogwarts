@@ -183,11 +183,9 @@ class QuizHogwartsApp(App):
             btn_opcao = Button(
                 text=texto_opcao,
                 font_size=sp(16),
-                color=(1, 1, 1, 1),
-                background_color=(0.2, 0.2, 0.2, 1)
+                color=(1, 1, 1, 1)
             )
             # Permite que textos longos de botões façam quebra de linha
-            btn_opcao.title_template = texto_opcao
             btn_opcao.bind(size=lambda inst, val: setattr(inst, 'text_size', (val[0] - dp(20), None)))
             btn_opcao.halign = 'center'
             btn_opcao.valign = 'middle'
